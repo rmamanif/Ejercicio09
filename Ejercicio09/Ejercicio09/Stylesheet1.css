@@ -1,0 +1,19 @@
+﻿^ContentPage
+{
+    background-color: #638fde;
+}
+.header {
+    color: white;
+    font-size: large;
+    text-align: center;
+    margin: 20;
+}
+entry{
+    color:blue;
+    text-align:left;
+    padding:10;
+}
+#myButton{
+    background-color:white;
+    color:blue;
+}

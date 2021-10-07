@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio09.MainPage">
+
+    <StackLayout>
+        <StackLayout>
+            <Button x:Name="Item1" Text="ExplicitDemo"></Button>
+            <Button x:Name="Item9" Text="CSS on Xamarin"></Button>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <StackLayout>
+                <Button x:Name="Item2" Text="ExplicitControlDemo"></Button>
+                <Button x:Name="Item3" Text="ImplicitDemo"></Button>
+                <Button x:Name="Item4" Text="ImplicitControlDemo"></Button>
+                <Button x:Name="Item5" Text="GlobalDemo"></Button>
+                <Button x:Name="Item6" Text="InheritanceDemo"></Button>
+                <Button x:Name="Item7" Text="DynamicDemo"></Button>
+                <Button x:Name="Item8" Text="ClassDemo"></Button>
+            </StackLayout>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>
